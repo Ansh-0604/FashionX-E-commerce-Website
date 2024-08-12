@@ -1,0 +1,33 @@
+/* Navigation */
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ff523b; /* Changes the color of navigation links to orange when hovered over */
+}
+
+.cart-item {
+    margin-bottom: 1rem; /* Provides a margin below the cart item for separation */
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .banner-image {
+        min-height: 300px; /* Adjusts the banner image's minimum height for smaller devices */
+    }
+} 
+/* Banner */
+.banner-image {
+    background: url('img/banner.jpg') no-repeat center center / cover;
+    min-height: 600px;
+}
+/* Feature Products Card */
+.card-title a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+.card-title a:hover {
+    color: #ff523b;
+}
+.row{
+    background-image: "brand.jpeg";
+}
+ 
